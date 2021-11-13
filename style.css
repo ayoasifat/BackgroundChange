@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+div{
+    display: flex;
+    gap:6px;
+    padding:20px;
+}
+/*For mobile phones*/
+img{
+    width: 70%;
+}
+/* For Ipad,Desktop etc. */
+@media only screen and (min-width: 768px) {
+    input{
+        width: 20%;
+    }
+}
+button{
+    font-size: large;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    border-radius: 100px;
+}
+input{
+    background-color: black;
+    border:2px solid black;
+    color:white;
+    font-size: larger;
+    width: 100%;
+}
